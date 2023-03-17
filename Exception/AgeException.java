@@ -2,7 +2,7 @@ package Exception;
 
 import java.io.IOException;
 
-public class AgeException extends IOException {
+public class AgeException extends RuntimeException {
     public AgeException(){
         super("Ошибка возраста: Персонаж ещё не родился");
     }
